@@ -62,7 +62,9 @@ div.nav a:hover{
 }
 
 div.day-box.COMPLETED{
-
+  width:300px;
+  float:left;
+  background-color: yellow;
 }
 
 div.person_info{
