@@ -29,7 +29,8 @@ div.header{
 }
 
 div.header span.username{
-  write-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  color: white;
 }
 
 div.header img.person_image{
@@ -43,6 +44,10 @@ div.person_info{
 }
 
 div.nav a{
+  
+}
+
+div.nav a:hover{
 
 }
 
