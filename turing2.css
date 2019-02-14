@@ -25,10 +25,11 @@ div.lab-box{
 div.header{
   height:100%;
   width: 200px;
-  /*position:fixed;*/
-  float: right;
+  position:fixed;
   background-color: black;
   margin: 0px;
+  right: 0;
+  top: 0;
 }
 
 div.header span.username{
