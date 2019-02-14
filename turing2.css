@@ -26,6 +26,7 @@ div.header{
   height:100%;
   width: 200px;
   position:fixed;
+  float: right;
   background-color: black;
   margin: 0px;
 }
@@ -37,7 +38,7 @@ div.header span.username{
 
 div.header img.person_image{
   position: relative;
-  left: 100px;
+  /*left: 100px;*/
 }
 
 
