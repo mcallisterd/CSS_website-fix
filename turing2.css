@@ -23,8 +23,8 @@ div.lab-box{
 }
 
 div.header{
-  height:40%;
-  width: 200px;
+  height:200px;
+  width: 400px;
   position:fixed;
   background-color: gray;
   margin: 0px;
@@ -38,8 +38,7 @@ div.header span.username{
 }
 
 div.header img.person_image{
-  position: relative;
-  /*left: 100px;*/
+
 }
 
 
