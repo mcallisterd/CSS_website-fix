@@ -50,9 +50,10 @@ div.person_info{
 div.nav a{
   width: 70px;
   height: 70px;
-  float: right;
+  float: left;
   clear:right;
   background-color: #efefef;
+  border-radius: 30px;
 }
 
 div.nav a:hover{
