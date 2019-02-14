@@ -23,7 +23,7 @@ div.lab-box{
 }
 
 div.header{
-  height:200px;
+  height:400px;
   width: 400px;
   position:fixed;
   background-color: gray;
@@ -49,8 +49,7 @@ div.person_info{
 div.nav a{
   width: 70px;
   height: 70px;
-  float: left;
-  clear:right;
+  float: right;
   background-color: #efefef;
   text-align: center;
 }
