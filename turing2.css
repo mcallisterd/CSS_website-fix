@@ -23,7 +23,9 @@ div.lab-box{
 }
 
 div.header{
-  
+  width:100%;
+  position:fixed;
+  background-color: black;
 }
 
 div.person_info{
