@@ -54,6 +54,7 @@ div.nav a{
   clear:right;
   background-color: #efefef;
   border-radius: 30px;
+  text-align: center;
 }
 
 div.nav a:hover{
