@@ -48,10 +48,12 @@ div.nav a{
   width: 70px;
   height: 70px;
   float: right;
+  clear:right;
+  background-color: #efefef;
 }
 
 div.nav a:hover{
-
+  background-color: green;
 }
 
 div.day-box.COMPLETED{
