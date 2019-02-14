@@ -59,6 +59,7 @@ div.nav a:hover{
 }
 
 div.day-box.COMPLETED{
+  border-top: 3px solid black;
   width:300px;
   height: 600px;
   float:left;
