@@ -26,15 +26,12 @@ div.header{
   width:100%;
   position:fixed;
   background-color: black;
+  margin: 0px;
 }
 
 div.header span.username{
   /*writing-mode: vertical-rl;*/
   color: white;
-}
-
-div.header h1{
-  margin:0px;
 }
 
 div.header img.person_image{
@@ -48,7 +45,9 @@ div.person_info{
 }
 
 div.nav a{
-
+  width: 70px;
+  height: 70px;
+  float: right;
 }
 
 div.nav a:hover{
