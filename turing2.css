@@ -25,7 +25,7 @@ div.lab-box{
 div.header{
   height:100%;
   width: 200px;
-  position:fixed;
+  /*position:fixed;*/
   float: right;
   background-color: black;
   margin: 0px;
