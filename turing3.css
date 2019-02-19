@@ -23,18 +23,11 @@ div.lab-box{
 }
 
 div.header{
-  height:400px;
-  width: 400px;
-  position:fixed;
-  background-color: gray;
-  margin: 0px;
-  right: 0;
-  top: 0;
+
 }
 
 div.header span.username{
-  /*writing-mode: vertical-rl;*/
-  color: white;
+
 }
 
 div.header img.person_image{
@@ -47,23 +40,15 @@ div.person_info{
 }
 
 div.nav a{
-  width: 70px;
-  height: 70px;
-  float: right;
-  background-color: #efefef;
-  text-align: center;
+
 }
 
 div.nav a:hover{
-  background-color: green;
+
 }
 
 div.day-box.COMPLETED{
-  border-top: 3px solid black;
-  width:300px;
-  height: 600px;
-  float:left;
-  background-color: yellow;
+
 }
 
 div.person_info{
