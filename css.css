@@ -275,10 +275,17 @@ form.account_form img.person_image{
             top: 40px;
 }
 
-/* Make the people's pictures in the classmates tab the correct size */
+/* Make the people's pictures in the classmates tab the correct size and add
+padding to the top so that people's names are more readable*/
 tr img{
-  height: 200px;
-  width: 200px;
+  height: 192px;
+  width: 140px;
+  padding-top:10px;
+}
+
+/*Make people's names on the classmates page appear right below their picture */
+td span.username{
+  left:0px;
 }
 
 /*Make the picture for lab partner and grading smaller */
