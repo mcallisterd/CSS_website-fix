@@ -266,10 +266,6 @@ form.account_form input{
             cursor: url("selection.ico"),auto;
 }
 
-
-
-
-
 form.account_form img.person_image{
             height: 90px;
             width: 90px;
@@ -277,4 +273,9 @@ form.account_form img.person_image{
             position: relative;
             left: 20px;
             top: 40px;
+}
+
+tr img{
+  height: 200px;
+  width: 200px;
 }
