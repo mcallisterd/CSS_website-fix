@@ -275,7 +275,14 @@ form.account_form img.person_image{
             top: 40px;
 }
 
+/* Make the people's pictures in the classmates tab the correct size */
 tr img{
+  height: 200px;
+  width: 200px;
+}
+
+/*Make the picture for lab partner and grading smaller */
+div.login image.person_image {
   height: 200px;
   width: 200px;
 }
