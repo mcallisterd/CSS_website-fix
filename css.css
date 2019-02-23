@@ -565,4 +565,6 @@ div.rubric_score{
 
 textarea.input_text+p{
   width:600px;
+  position:relative;
+  left:40px;
 }
