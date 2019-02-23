@@ -563,6 +563,6 @@ div.rubric_score{
   width:600px;
 }
 
-div.assignment_prompt+p{
+textarea.input_text+p{
   width:600px;
 }
