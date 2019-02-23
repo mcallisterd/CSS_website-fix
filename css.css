@@ -355,4 +355,11 @@ div.sound{
   height:50px;
   width:50px;
   background-image:url(soundbutton.png);
+  background-size: cover;
+}
+
+div.header div.sound{
+  position:relative;
+  top: 20px;
+  left: 30px;
 }
