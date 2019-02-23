@@ -289,7 +289,7 @@ form.account_form img.person_image{
 padding to the top so that people's names are more readable*/
 tr img{
   height: 192px;
-  width: 140px;
+  width: 160px;
   padding-top:10px;
 }
 
@@ -302,4 +302,10 @@ td span.username{
 div.login image.person_image {
   height: 200px;
   width: 200px;
+}
+
+/*Making the audio button visible */
+div.sound{
+  height:50px;
+  width:50px;
 }
