@@ -366,4 +366,5 @@ div.header div.sound{
 
 div.header+svg{
   background-color:black;
+  background-size: cover;
 }
