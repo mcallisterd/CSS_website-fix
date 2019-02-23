@@ -362,13 +362,6 @@ div.sound{
   border-radius:100px;
 }
 
-table{
-  /*background-color: rgba(0,0,0,.5);*/
-}
-
-td{
-  border-right: 5px dotted black;
-}
 
 /* general sound button positioning in the header */
 div.header div.sound{
@@ -387,6 +380,8 @@ div.header+svg{
   height:500px;
   border:dotted;
   border-radius:80px;
+  margin: 50px;
+  margin-left: 200px;
 }
 
 
@@ -456,6 +451,7 @@ textarea.input_text{
                 left: 750px;
                 top: 325px;
                 cursor: url("selection.ico"),auto;
+   padding-top:20px;
 }
 
 textarea:hover{
