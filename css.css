@@ -365,8 +365,8 @@ table{
   /*background-color: rgba(0,0,0,.5);*/
 }
 
-tr{
-  border-right: 5px solid black;
+td{
+  border-right: 5px dotted black;
 }
 
 /* general sound button positioning in the header */
