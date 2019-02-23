@@ -362,10 +362,10 @@ div.sound{
 }
 
 table{
-  background-color: rgba(0,0,0,.5);
+  /*background-color: rgba(0,0,0,.5);*/
 }
 
-td{
+tr{
   border-right: 5px solid black;
 }
 
