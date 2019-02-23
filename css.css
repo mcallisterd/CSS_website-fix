@@ -37,6 +37,7 @@ div.header{
             position: relative;
             top: -10px;
             left: -12px;
+   background-repeat:no-repeat;
 }
 
 div.header img.person_image{
