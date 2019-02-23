@@ -366,8 +366,7 @@ table{
 }
 
 td{
-  /*border: dotted;
-  border-radius: 10px;*/
+  border-right: 5px solid black;
 }
 
 /* general sound button positioning in the header */
