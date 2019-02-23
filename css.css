@@ -469,7 +469,7 @@ textarea.input_text{
                 border-top-left-radius: 30px;
                 position: absolute;
                 left: 750px;
-                top: 325px;
+                top: 360px;
                 cursor: url("selection.ico"),auto;
                 padding-top: 20px;
 }
@@ -554,4 +554,15 @@ table.grade-table td{
   padding-left: 20px;
   padding-right: 20px;
 
+}
+
+/*Keep the grading rubic area to the left so if the input box has to extend
+down they don't overlap*/
+
+div.rubric_score{
+  width:600px;
+}
+
+div.assignment_prompt+p{
+  width:600px;
 }
