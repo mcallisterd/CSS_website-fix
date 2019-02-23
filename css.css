@@ -358,7 +358,7 @@ div.sound{
   width:40px;
   background-image:url(soundbutton.png);
   background-size: cover;
-<<<<<<< HEAD
+  border-radius:100px;
 }
 
 table{
@@ -366,25 +366,20 @@ table{
 }
 
 td{
-  border: dotted;
-  border-radius: 10px;
+  /*border: dotted;
+  border-radius: 10px;*/
 }
 
 /* general sound button positioning in the header */
 div.header div.sound{
   position:relative;
-=======
->>>>>>> eb91e3a7d5d29008f77072e5321d4136829b56a6
   top: 40px;
   left: 50px;
   position: relative;
   border-radius: 100px;
 }
 
-<<<<<<< HEAD
 /* seating page */
-=======
->>>>>>> eb91e3a7d5d29008f77072e5321d4136829b56a6
 
 div.header+svg{
   background-color: rgba(0,0,0,.5);
