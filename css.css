@@ -6,6 +6,11 @@ font-family: 'Orbitron', sans-serif;
 font-family: 'Poiret One', cursive;
 font-family: 'Cinzel', serif;*/
 
+
+/*
+Changed max-width to 1300 so there isn't a scroll wheel at the bottom
+of every page.
+*/
 body{
    font-family: 'Poiret One', cursive;
    font-size: 18px;
@@ -13,17 +18,22 @@ body{
    background-repeat:repeat;
    background-attachment: fixed;
    background-size: 1600px;
-   max-width: 1700px;
+   max-width: 1300px;
 }
 
 
 /* header */
 
+/*Position relative and top/left are to make the header touch
+the top and left of the browser window */
 div.header{
             font-family: cursive;
             background-image: url("header.png");
             opacity: 20%;
             background-size: 1420px;
+            position: relative;
+            top: -10px;
+            left: -12px;
 }
 
 div.header img.person_image{
