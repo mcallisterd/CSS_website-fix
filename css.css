@@ -288,7 +288,9 @@ form.account_form input{
             top: 30px;
 }
 
-
+              label:nth-of-type(3){
+                clear: both;
+              }
               label:nth-of-type(4){
                 clear: both;
               }
