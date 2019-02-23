@@ -38,7 +38,10 @@ div.header{
             position: relative;
             top: -10px;
             left: -12px;
-   background-repeat:no-repeat;
+            background-repeat:no-repeat;
+            width: 1200px;
+            border-bottom-right-radius: 100px;
+            opacity: 0.6;
 }
 
 div.header img.person_image{
