@@ -18,7 +18,7 @@ body{
    background-repeat:repeat;
    background-attachment: fixed;
    background-size: 1600px;
-   max-width: 1300px;
+   max-width: 1200px;
 }
 
 
@@ -30,7 +30,7 @@ div.header{
             font-family: cursive;
             background-image: url("header.png");
             opacity: 20%;
-            background-size: 1420px;
+            background-size: 1200px;
             position: relative;
             top: -10px;
             left: -12px;
@@ -308,4 +308,5 @@ div.login image.person_image {
 div.sound{
   height:50px;
   width:50px;
+  background-image:url(soundbutton.png);
 }
