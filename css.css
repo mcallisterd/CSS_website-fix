@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Orbitron|Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Orbitron|Playfair+Display|Poppins');
 
 /*
 font-family: 'Playfair Display', serif;
@@ -205,9 +204,6 @@ div.assignment-label{
         font-weight:normal;
 }
 
-div.assignment-title{
-        text-decoration: underline;
-}
 
 .prep-box{
         left: 210px;
@@ -416,17 +412,16 @@ form.assignment_form{
 
 .assignment-title{
   text-decoration: none;
-    font-size: 25px;
-    font-style: italic;
-    border-bottom: dotted;
-    width: 300px;
-    border-bottom-right-radius: 20px;
-    margin-bottom: 10px;
-    padding-right: 20px;
-    border-width: 2px;
-    font-family: 'Cinzel', serif;
-    font-weight: normal;
-    margin-top: 50px;
+  font-size: 20px;
+  font-style: italic;
+  border-bottom: dotted;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+  margin-top: 30px;
+  padding-right: 10px;
 
 }
 
