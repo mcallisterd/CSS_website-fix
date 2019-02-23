@@ -360,11 +360,23 @@ div.sound{
   background-size: cover;
 }
 
+table{
+  background-color: rgba(0,0,0,.5);
+}
+
+td{
+  border: dotted;
+  border-radius: 10px;
+}
+
+/* general sound button positioning in the header */
 div.header div.sound{
   position:relative;
   top: 40px;
   left: 30px;
 }
+
+/* seating page */
 
 div.header+svg{
   background-color: rgba(0,0,0,.5);
