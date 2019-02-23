@@ -395,6 +395,23 @@ form.assignment_form{
 }
 
 .assignment_title{
+    text-decoration: underline;
+    font-size: 25px;
+    font-style: italic;
+    border-bottom: dotted;
+    width: 600px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    border-width: 2px;
+    font-family: 'Cinzel', serif;
+    font-weight: normal;
+    margin-top: 50px;
+
+}
+
+.assignment-title{
+  text-decoration: none;
     font-size: 25px;
     font-style: italic;
     border-bottom: dotted;
@@ -425,6 +442,18 @@ div.assignment_prompt{
             border-right: dotted;
             border-bottom-right-radius: 30px;
             border-top-left-radius: 30px;
+}
+
+div.view_text{
+            border-bottom: dotted;
+          border-top: none;
+          border-left: none;
+          border-right: dotted;
+          border-bottom-right-radius: 30px;
+          border-top-left-radius: 30px;
+          background: rgba(255,255,255,0.5);
+          padding: 15px;
+          border-width: 2px;
 }
 
 
@@ -477,6 +506,7 @@ div.assignment_prompt ol{
           list-style-type: square;
           margin-block-start: 2em;
           margin-block-end: 1em;
+          margin-inline-end: px;
           font-size: 20px;
           font-family: cursive;
 }
@@ -504,7 +534,24 @@ form.assignment_form > input[type=submit]{
 }
 
 div.rubric_score table{
-  position: relative;
-  left: 40px;
-  
+                  position: relative;
+                  left: 40px;
+
+}
+
+table.grade-table{
+                margin-top: 30px;
+                position: relative;
+                left: 100px;
+                font-family: cursive;
+                font-size: 20px;
+                background: rgba(0,0,0,0.3);
+                border-radius: 60px;
+                padding: 30px;
+}
+
+table.grade-table td{
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
