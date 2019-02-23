@@ -363,3 +363,7 @@ div.header div.sound{
   top: 30px;
   left: 30px;
 }
+
+div.header+svg{
+  background-color:black;
+}
