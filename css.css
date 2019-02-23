@@ -389,11 +389,12 @@ div.header+svg{
 
 
 /* HW Submit Page */
+
 form.assignment_form{
   font-family: cursive;
 }
 
-div.assignment_title{
+.assignment_title{
     font-size: 25px;
     font-style: italic;
     border-bottom: dotted;
@@ -426,16 +427,6 @@ div.assignment_prompt{
             border-top-left-radius: 30px;
 }
 
-div.assignment_prompt ol{
-      display: block;
-      list-style-type:square;
-      margin-block-start: 1em;
-      margin-block-end: 3em;
-      margin-inline-start: -15px;
-      padding-inline-start: 40px;
-      font-family: cursive;
-
-}
 
 textarea.input_text{
                 background: rgba(255,255,255,0.5);
@@ -451,7 +442,7 @@ textarea.input_text{
                 left: 750px;
                 top: 325px;
                 cursor: url("selection.ico"),auto;
-   padding-top:20px;
+                padding-top: 20px;
 }
 
 textarea:hover{
@@ -459,14 +450,8 @@ textarea:hover{
 }
 
 
-div.rubric_score{
-  height: 40px
-}
 
-table input{
-  margin-left: 12px;
-}
-textarea.assignment_text_comments{
+textarea[name=assignment_text_comments]{
           background: rgba(255,255,255,0.5);
           min-width: 500px;
           min-height: 100px;
@@ -476,26 +461,50 @@ textarea.assignment_text_comments{
           border-right: dotted;
           border-bottom-right-radius: 30px;
           border-top-left-radius: 30px;
+          padding-top: 15px;
+          cursor: url("selection.ico"),auto;
           position: relative;
+          top: 190px;
           left: 50px;
 }
 
-form.assignment_form input:nth-last-child(1){
-      background: rgba(255,255,255,0.5);
-      border-bottom: dotted;
-      border-top: none;
-      border-left: none;
-      border-right: dotted;
-      border-bottom-right-radius: 30px;
-      border-top-left-radius: 30px;
-      border-width: 1px;
-      height: 30px;
-      width: 100px;
-      font-size: 15px;
-      position: relative;
-      top: -12px;
-      left: 70px;
-      font-family: 'Orbitron';
-      padding-top: 5px;
-      cursor: url(selection.ico),auto;
+
+table input{
+  margin-left: 12px;
+}
+
+div.assignment_prompt ol{
+          list-style-type: square;
+          margin-block-start: 2em;
+          margin-block-end: 1em;
+          font-size: 20px;
+          font-family: cursive;
+}
+
+form.assignment_form > input[type=submit]{
+          background: rgba(255,255,255,0.5);
+          border-bottom: dotted;
+          border-width: 1px;
+          border-top: none;
+          border-left: none;
+          border-right: dotted;
+          border-bottom-right-radius: 30px;
+          border-top-left-radius: 30px;
+          cursor: url("selection.ico"),auto;
+          padding-top: 4px;
+          cursor: url(selection.ico),auto;
+          width: 100px;
+          height: 30px;
+          font-size: 15px;
+          font-family: 'Orbitron';
+          position: relative;
+          top: 178px;
+          left: 100px;
+
+}
+
+div.rubric_score table{
+  position: relative;
+  left: 40px;
+  
 }
