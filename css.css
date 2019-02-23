@@ -16,7 +16,6 @@ Changed max-width to 1300 so there isn't a scroll wheel at the bottom
 of every page.
 */
 body{
-   font-family: 'Poiret One', cursive;
    font-size: 18px;
    background-image: url(body.png);
    background-repeat:repeat;
