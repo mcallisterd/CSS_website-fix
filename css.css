@@ -44,8 +44,8 @@ div.header img.person_image{
             width: 90px;
             border-radius: 100px;
             position: relative;
-            left: 20px;
-            top: 40px;
+            left: 160px;
+            top: 30px;
 }
 
 span.username{
@@ -354,17 +354,16 @@ div.login image.person_image {
 
 /*Making the audio button visible */
 div.sound{
-  height:50px;
-  width:50px;
+  height:40px;
+  width:40px;
   background-image:url(soundbutton.png);
   background-size: cover;
+  top: 40px;
+  left: 50px;
+  position: relative;
+  border-radius: 100px;
 }
 
-div.header div.sound{
-  position:relative;
-  top: 40px;
-  left: 30px;
-}
 
 div.header+svg{
   background-color: rgba(0,0,0,.5);
