@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Orbitron|Playfair+Display|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Orbitron|Playfair+Display|Quattrocento');
 
 /*
 font-family: 'Playfair Display', serif;
@@ -21,7 +21,7 @@ body{
    background-attachment: fixed;
    background-size: 1600px;
    max-width: 1200px;
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Quattrocento', sans-serif;
 }
 
 
