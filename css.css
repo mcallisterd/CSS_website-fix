@@ -427,7 +427,7 @@ input[name=password0]{
 
 }
 
-form[action=/partnerLogin] > div:nth-of-type(2) input{
+input[value='Log In']{
               background: rgba(255, 255, 255, 0.5);
             border-bottom: dotted;
             border-left: none;
