@@ -625,7 +625,7 @@ textarea:hover{
 textarea[name=assignment_text_comments]{
           background: rgba(255,255,255,0.5);
           min-width: 500px;
-          min-height: 100px;
+          min-height: 200px;
           border-bottom: dotted;
           border-top: none;
           border-left: none;
@@ -635,8 +635,8 @@ textarea[name=assignment_text_comments]{
           padding-top: 15px;
           cursor: url("selection.ico"),auto;
           position: relative;
-          top: 50px;
-          left: 100px;
+          top: -330px;
+          left: 750px;
 }
 
 
@@ -664,14 +664,13 @@ form.assignment_form > input[type=submit]{
           border-top-left-radius: 30px;
           cursor: url("selection.ico"),auto;
           padding-top: 4px;
-          cursor: url(selection.ico),auto;
           width: 100px;
           height: 30px;
           font-size: 15px;
           font-family: 'Orbitron';
           position: relative;
-          top: 30px;
-    left: 120px;
+          top: -270px;
+    left: 650px;
 
 }
 
