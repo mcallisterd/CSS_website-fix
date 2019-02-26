@@ -543,12 +543,14 @@ form.assignment_form{
 }
 
 form.assignment_form div.assignment_title{
-    font-size: 25px;
-    font-style: italic;
-    font-family: 'Cinzel', serif;
-    font-weight: normal;
-    margin-top: 50px;
-        width: 1000px;
+                font-size: 25px;
+                font-style: italic;
+                font-family: 'Cinzel', serif;
+                font-weight: normal;
+                margin-top: 50px;
+                    width: 1000px;
+                    text-decoration: underline;
+
 }
 
 .assignment-title{
@@ -701,6 +703,18 @@ down they don't overlap*/
 
 div.rubric_score{
             width:600px;
+}
+
+div.rubric_title{
+              font-size: 25px;
+            font-style: italic;
+            font-family: 'Cinzel', serif;
+            font-weight: normal;
+            margin-top: 50px;
+            width: 1000px;
+            position: relative;
+            left: 50px;
+            text-decoration: underline;
 }
 
 textarea.input_text+p{
