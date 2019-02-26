@@ -542,20 +542,13 @@ form.assignment_form{
   font-family: cursive;
 }
 
-.assignment_title{
-    text-decoration: underline;
+form.assignment_form div.assignment_title{
     font-size: 25px;
     font-style: italic;
-    border-bottom: dotted;
-    width: 300px;
-    border-bottom-right-radius: 20px;
-    margin-bottom: 10px;
-    padding-right: 20px;
-    border-width: 2px;
     font-family: 'Cinzel', serif;
     font-weight: normal;
     margin-top: 50px;
-
+        width: 1000px;
 }
 
 .assignment-title{
@@ -570,6 +563,8 @@ form.assignment_form{
   font-weight: normal;
   margin-top: 30px;
   padding-right: 10px;
+  width: 300px;
+
 
 }
 
