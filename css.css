@@ -603,6 +603,7 @@ div.view_text{
           background: rgba(255,255,255,0.5);
           padding: 15px;
           border-width: 2px;
+          max-width: 1100px;
 }
 
 
@@ -696,6 +697,7 @@ table.grade-table{
                 background: rgba(0,0,0,0.3);
                 border-radius: 60px;
                 padding: 30px;
+                max-width: 1000px;
 }
 
 table.grade-table td{
