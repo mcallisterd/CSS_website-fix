@@ -679,7 +679,26 @@ form.assignment_form > input[type=submit]{
           position: relative;
           top: -270px;
     left: 650px;
+}
 
+form.grade_form > input[type=submit]{
+          background: rgba(255,255,255,0.5);
+          border-bottom: dotted;
+          border-width: 1px;
+          border-top: none;
+          border-left: none;
+          border-right: dotted;
+          border-bottom-right-radius: 30px;
+          border-top-left-radius: 30px;
+          cursor: url("selection.ico"),auto;
+          padding-top: 4px;
+          width: 100px;
+          height: 30px;
+          font-size: 15px;
+          font-family: 'Orbitron';
+          position: relative;
+          top: -270px;
+    left: 650px;
 }
 
 div.rubric_score table{
